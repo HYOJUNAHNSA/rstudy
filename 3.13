@@ -1,0 +1,10 @@
+---
+title: "chap3.13"
+author: "hyojunahn"
+date: "2017년 10월 9일"
+output: html_document
+---
+
+#3.13
+
+### (a) Using the rnorm() function, create a vector, x, containing 100 observations drawn from a N(0, 1) distribution. This represents a feature, X.

@@ -1,0 +1,32 @@
+---
+title: "chap3.13"
+author: "hyojunahn"
+date: "2017년 10월 9일"
+output: html_document
+---
+
+#3.13
+
+### (a) Using the rnorm() function, create a vector, x, containing 100 observations drawn from a N(0, 1) distribution. This represents a feature, X.
+
+``` {r}
+
+set.seed(1)
+a <- rnorm(100)
+a
+
+```
+.
+
+.
+
+seed를 1로 set 한다. 
+
+
+* rnorm(n, mean = 0, sd = 1)
+
+  + If mean or sd are not specified they assume the default values of 0 and 1, respectively.*
+
+
+### Using the rnorm() function, create a vector, eps, containing 100 observations drawn from a N(0, 0.25) distribution i.e. a normal distribution with mean zero and variance 0.25.
+
